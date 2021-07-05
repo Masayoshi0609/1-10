@@ -65,3 +65,19 @@ footer {
 .heading-text {
   margin: 15px 0 5px;
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .main-box {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+
+  .main-box:last-child {
+    margin: 0 auto;
+  }
+}
